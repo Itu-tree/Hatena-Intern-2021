@@ -19,7 +19,7 @@ build:
   - image: 097682818081.dkr.ecr.ap-northeast-1.amazonaws.com/hatena-intern-2021-renderer-ts
     context: services/renderer-ts
   local:
-    push: false
+    push: true
     useBuildkit: true
 deploy:
   statusCheckDeadlineSeconds: 180
