@@ -1,7 +1,7 @@
-const unified = require('unified');
-const markdown = require('remark-parse');
-const remark2rehype = require('remark-rehype');
-const html = require('rehype-stringify');
+import unified  from 'unified';
+import markdown  from 'remark-parse';
+import remark2rehype from 'remark-rehype';
+import html from 'rehype-stringify';
 
 const processor = unified()
 .use(markdown)
